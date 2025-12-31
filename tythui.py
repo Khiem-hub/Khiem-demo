@@ -1,0 +1,1 @@
+print("ty la thui so 1")
