@@ -1,0 +1,1 @@
+print("Gia khiem 1112")
