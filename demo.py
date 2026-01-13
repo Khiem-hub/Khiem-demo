@@ -1,9 +1,10 @@
+import sys
 try:
     hours = float(input("Enter Hours: "))
     rate = float(input("Enter Rate: "))
 except ValueError:
     print("Error, please enter numeric input")
-    raise SystemExit
+    sys.exit()
 
 if hours > 40:
     regular_pay = 40 * rate
